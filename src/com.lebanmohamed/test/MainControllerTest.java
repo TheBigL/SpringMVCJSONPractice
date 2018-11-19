@@ -1,14 +1,12 @@
-package test;
-
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
 
 import javax.annotation.processing.Generated;
 
 class MainControllerTest
 {
-    @BeforeClass
+    @Before
     public void setUp()
     {
 
@@ -21,7 +19,7 @@ class MainControllerTest
 
     }
 
-    @AfterClass
+    @After
     public void tearDown()
     {
 
